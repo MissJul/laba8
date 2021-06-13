@@ -1,19 +1,11 @@
-#include <iostream>
 
-using namespace std;
-void input(int*,int*);
+#include <stdio.h>
 int main()
 {
-    setlocale(LC_ALL, "rus");
-     int num1, num2;
-     input(&num1, &num2);
-     cout << "„исла:"<< num1 << ";" << num2 << end;
+	int a,b;
+	printf("enter a,b\n");
+	scanf("%d %d", &a,&b);
+	printf("a+b=%d", a+b);
     return 0;
 }
- void input(int *a, int *b)
- {
-     cout << "¬ведите первое число:";
-     cin >> *a;
-     cout << "¬ведите второе число:";
-     cin >> *b;
- }
+ 
